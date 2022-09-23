@@ -1,13 +1,11 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+const config = {
   content: ["./src/**/*.{html,js,svelte,ts}"],
+
   theme: {
-    extend: {},
+    extend: {}
   },
-  plugins: [
-    require("@tailwindcss/typography"),
-    require("@tailwindcss/forms"),
-    require("@tailwindcss/aspect-ratio"),
-    require("@tailwindcss/line-clamp")
-  ],
+
+  plugins: []
 };
+
+module.exports = config;
